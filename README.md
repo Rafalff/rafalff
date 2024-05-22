@@ -1,5 +1,31 @@
 Programmer/GameDev
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terminal Game</title>
+    <style>
+        body { background-color: #000; color: #0f0; font-family: monospace; }
+        #terminal { margin: 20px; }
+    </style>
+</head>
+<body>
+    <div id="terminal">Welcome to the terminal game. Type 'start' to begin...</div>
+    <script>
+        const terminal = document.getElementById('terminal');
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                terminal.innerHTML += '<br>You typed: ' + e.target.value;
+                e.target.value = '';
+            }
+        });
+    </script>
+</body>
+</html>
+
+<!--
+
 <div align=center>
 
 <img alt="GIF" src="elphelt.gif" width="160"  />
@@ -16,7 +42,7 @@ Programmer/GameDev
 
 </div>
 
-<!--
+
 **Rafalff/rafalff** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
