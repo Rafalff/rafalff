@@ -1,5 +1,5 @@
 Programmer/GameDev
-[![](https://visitcount.itsvg.in/api?id=rafalff2&icon=2&color=1)](https://visitcount.itsvg.in)
+
 <div align=center>
 
 <img alt="GIF" src="elphelt.gif" width="160"  />
